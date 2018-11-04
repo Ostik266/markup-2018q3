@@ -1,0 +1,324 @@
+@font-face{
+    font-family: "Mont-ExLight";
+    src: url(fonts/Montserrat-ExtraLight.otf) format('truetype');
+}
+@font-face{
+    font-family: "Lato-Heavy";
+    src: url(fonts/Lato-Heavy.ttf) format('truetype');
+}
+@font-face{
+    font-family: "Lato-Reg";
+    src: url(fonts/Lato-Regular.ttf) format('truetype');
+}
+@font-face{
+    font-family: "Lato-SemiBold";
+    src: url(fonts/Lato-Semibold.ttf) format('truetype');
+}
+@font-face{
+    font-family: "Lato-Bold";
+    src: url(fonts/Lato-Bold.ttf) format('truetype');
+}
+@font-face{
+    font-family: "Lato-Light";
+    src: url(fonts/Lato-Light.ttf) format('truetype');
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+header{
+    width: 1602px;
+    height: 1064px;
+    background-image: url(images/Header/HeaderBG/Header\ BG@1X.png) ;
+    background-repeat: no-repeat;
+}
+div.header{
+    display: flex;
+    flex-flow: column nowrap;
+    width: 1602px;
+    height: 1064px;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+div.menu{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    width: 1200;
+    height: 86px;
+    border-bottom: 1px solid #2d2e30;
+    margin: 0 auto;
+}
+div#headerLogo{
+    padding-top: 32px;
+}
+div#menuBar{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    width: 631px;
+}
+div.menuButtons{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    color: white;
+    font-family: "Lato-Light";
+    font-size: 16pt;
+    
+}
+div.menuButtons:hover{
+    border-bottom: 1px solid white;
+}
+div.headerText{
+    display: flex;
+    flex-flow: column nowrap;
+    color: white;
+    justify-content: center;
+   align-items: center;
+    height: 886px;
+    width: 100%;
+}
+div.headerText > h1{
+    font-family: "Lato-Bold";
+    font-size: 72pt;
+    padding-bottom: 33px;
+}
+div.headerText > p{
+    font-family: "Georgia-Italic";
+    font-size: 32pt;
+}
+div.member{
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
+    height: 123px;
+    background-color: rgba(57, 208, 131, 0.91)
+}
+div.member > div#login{
+    display: flex;
+    flex-flow: row nowrap;
+    width: 812px;
+    height: 100%;
+    background-color: rgba(32, 55, 71, 0.91);
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: "Lato-Bold";
+    font-size: 22pt;
+}
+div.member > div#register{
+    display: flex;
+    flex-flow: row nowrap;
+    width: 790px;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: "Lato-Bold";
+    font-size: 22pt;
+}
+div.mainInfo{
+    width: 1600px;
+    height: 1343px;
+    background-image: url(images/main/Packages\ Photo@1X.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+div.mainInfo > div.domain{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    background-color: white;
+    width: 1600px;
+    height: 578px;
+}
+div.domain > div.domainText{
+    padding-top: 90px;
+    text-align: center;
+}
+div.domainText > h2{
+    padding-bottom: 27px;
+    font-family: "Lato-Heavy";
+    font-size: 24pt;
+    color: rgba(56, 55, 55, 255);
+}
+div.domainText > p{
+    font-family: "Mont-ExLight";
+    font-size: 16px;
+    color: rgba(162, 162, 162, 255);
+}
+form.domainForm {
+   display: flex;
+   flex-flow: row nowrap;
+   align-items: center;
+   margin-top: 50px;
+    width: 890px;
+    height: 50px;
+    border: 1px solid #d9d9d9;
+}
+form.domainForm > input{
+height: 32px;
+border-right: 1px solid #d9d9d9;
+}
+input#www{
+    width: 71px;
+    text-align: center;
+    font-family: "Lato-SemiBold";
+    font-size: 17px;
+    color: rgba(203, 203, 203, 255);
+}
+input#textInput{
+    width: 730px;
+    padding-left: 15px;
+    font-family: "Lato-SemiBold";
+    font-size: 15pt;
+    color: rgba(134, 134, 134, 255);
+}
+div.domain > div.domainPrice{
+    margin-top: 38px;
+    width: 888px;
+    height: 200px;
+    border: 1px solid #d9d9d9;
+}
+div.domainPrice  div.lines{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100px;
+    width: 100%;
+    font-family: "Lato-Reg";
+    font-size: 14pt;
+    color: rgba(203, 203, 203, 255);
+}
+div.lines > div.comPrice{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 67px;
+    width: 222px;
+    border-left: 1px solid #d9d9d9;
+}
+div.lines > div.netPrice{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 67px;
+    width: 222px;
+    border-left: 1px solid #d9d9d9;
+}
+div.lines > div.netPrice:first-child{
+    border-left: none;
+}
+div.lines > div.comPrice:first-child{
+    border-left: none;
+}
+
+div.mainInfo > div.packages{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: flex-end;
+    width: 1600px;
+    height: 765px;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-image: url(images/main/Packages\ White\ BG@1X.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+div.packages > div.packageBlock{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    width: 1200px;
+    height: 660px;
+    border-bottom: 2px dashed #d6d6d6;
+}
+div.packageBlock > div.packBlocks{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    width: 255;
+    height: 565;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-color: white;
+}
+div.packageBlock > div#yellowBlock{
+    border-top: 5px solid rgb(249, 212, 35);
+}
+div.packageBlock > div#grayBlock{
+    border-top: 5px solid rgb(127, 140, 141);
+}
+div.packageBlock > div#redBlock{
+    border-top: 5px solid rgb(248, 95, 64);
+}
+div.packageBlock > div#greenBlock{
+    border-top: 5px solid rgb(26, 188, 156);
+}
+div.packageLogo{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 143px;
+    width: 200px;
+    font-family: "Lato-Bold";
+    font-size: 16pt;
+    color: #282828;
+}
+div.packageFeatures{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    width: 200px;
+    height: 282px;
+    border-top: 1px solid #dfdfdf;
+    border-bottom: 1px solid #dfdfdf;
+}
+div.packagePrice{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 133px;
+}
+div.pricePackBlock{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 105px;
+}
+div.priceInfo{
+    display: flex;
+    flex-flow: column nowrap;
+    height: 30px;
+    width: 100%;
+    align-items: center;
+}
+div#yellowPrice{
+    border-bottom: 3px solid rgb(249, 212, 35);
+}
+div#grayPrice{
+    border-bottom: 3px solid rgb(127, 140, 141);
+}
+div#redPrice{
+    border-bottom: 3px solid rgb(248, 95, 64);
+}
+div#greenPrice{
+    border-bottom: 3px solid rgb(26, 188, 156);
+}
+div.planSelector{
+    display: flex;
+    flex-flow: column nowrap;
+    height: 35px;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-end;
+    font-family: "Lato-Bold";
+    font-size: 13px;
+    color: #282828;
+}
