@@ -22,6 +22,10 @@
     font-family: "Lato-Light";
     src: url(fonts/Lato-Light.ttf) format('truetype');
 }
+@font-face{
+    font-family: "Lato-Thin";
+    src: url(fonts/Lato-Thin.ttf) format('truetype');
+}
 a{
     text-decoration: none;
     color: inherit;
@@ -321,4 +325,72 @@ div.planSelector{
     font-family: "Lato-Bold";
     font-size: 13px;
     color: #282828;
+}
+main > div.aboutUs{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 1600px;
+    height: 400px;
+}
+div.aboutUs > div.aboutUsWrap{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 1200px;
+    height: 400px;
+}
+div.aboutUsWrap > div.aboutText{
+    height: 184px;
+    width: 520px;
+    border-right: 2px dashed #d5d5d5;
+}
+div.aboutText > h3{
+    font-family: "Lato-SemiBold";
+    font-size: 35pt;
+    color: #303030;
+    margin-bottom: 33px;
+}
+div.aboutText > p{
+    font-family: "Lato-Thin";
+    font-size: 14pt;
+    color: #878787;
+    margin-bottom: 5px;
+}
+div.aboutUsWrap > div.teamBlock{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 575px;
+    height: 184px;
+}
+div.teamBlock > div.personBlock{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 130px;
+    height: 184px;
+}
+div.personBlock > h4{
+    font-family: "Lato-SemiBold";
+    font-size: 13pt;
+    color: #303030;
+}
+div.personBlock > p{
+    font-family: "Lato-Reg";
+    font-size: 12pt;
+    color: #8e8e8e;
+}
+div.personBlock > div.personSocials{
+    width: 85px;
+    height: 15px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
 }
